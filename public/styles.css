@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+.headings{
+  background-color: rgb(4, 107, 13);
+  padding: 1.5rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+.titleBox{
+  color: rgb(4, 107, 13);
+  font-weight: 800;
+  font-size: 18px;
+}
+.box{
+  /*border:  0.2rem solid blue;*/
+  background-color: rgb(139, 193, 133);
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  
+}
+.boxContainer{
+  /*border: 0.2rem solid rgb(249, 5, 5);*/
+  
+}
+.avartarContainer{
+  /*border: 2px solid black;*/
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 25px;
+}
+.avatarDef{
+  /*border: 2px solid red;*/
+  width: 200px;
+  font-size: 12px;
+}
+.avatarImg{
+  border-radius: 300px;
+  width: 75px;
+  margin-left: auto;
+}
+.avatarBox{
+  /*border: 2px solid blue;*/
+  width: 80px;
+  margin-left: auto;
+}
+.learnMore{
+  width: 90px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(4, 107, 13);
+  color: white;
+  border: none;
+}
+@media only screen and (min-width: 1440px){
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  .headings{
+    background-color: rgb(4, 107, 13);
+    padding: 1.5rem;
+    color: white;
+    margin-bottom: 5rem;
+  }
+  .titleBox{
+    color: rgb(4, 107, 13);
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .box{
+    /*border:  0.2rem solid blue;*/
+    background-color: rgb(139, 193, 133);
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    
+  }
+  .boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 0.2rem solid greenyellow;*/
+    width: 1500px
+  }
+  .avartarContainer{
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+  }
+  .avatarDef{
+    /*border: 2px solid red;*/
+    width: 200px;
+    font-size: 12px;
+  }
+  .avatarImg{
+    border-radius: 300px;
+    width: 75px;
+    margin-left: auto;
+  }
+  .avatarBox{
+    /*border: 2px solid blue;*/
+    width: 80px;
+    margin-left: auto;
+  }
+  .learnMore{
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(4, 107, 13);
+    color: white;
+    border: none;
+  }
+
+
+}
